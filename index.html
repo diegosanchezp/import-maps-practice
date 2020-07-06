@@ -1,23 +1,12 @@
 <html>
   <head>
-    <title>ES Import Maps Shimp</title>
+    <title>Snowpack Test</title>
 
     <script defer src="./es-module-shims.min.js"></script>
 
-    <script type="importmap-shim">
-
-      {
-        "imports": {
-          "lit-html": "./node_modules/lit-html/lit-html.js",
-          "lit-element": "./node_modules/lit-element/lit-element.js",
-          "lit-html/lit-html.js": "./node_modules/lit-html/lit-html.js",
-          "lit-html/lib/shady-render.js": "./node_modules/lit-html/lib/shady-render.js"
-        }
- 
-      }
-    </script>
-
+    <script type="importmap-shim" src="./web_modules/import-map.json"></script>
     <script type="module-shim">
+      
       import { LitElement, html, css } from 'lit-element';
 
       class XComponent extends LitElement {
@@ -37,10 +26,13 @@
       }
 
       customElements.define('x-component', XComponent);
-    </script>
 
+    </script>
+    
   </head>
+
   <body>
     <x-component></x-component>
   </body>
+
 </html>

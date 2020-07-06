@@ -1,11 +1,10 @@
 {
   "name": "import-maps",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "snowpack.js",
   "license": "MIT",
   "scripts": {
     "server":"es-dev-server --app-index index.html --watch --open",
-    "serve:snow":"es-dev-server --app-index snowpack.html --watch --open",
     "web-modules": "snowpack"
   },
   "devDependencies": {
