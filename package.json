@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "server":"es-dev-server --app-index index.html --watch --open"
+    "server":"es-dev-server --app-index index.html --watch --open",
+    "serve:snow":"es-dev-server --app-index snowpack.html --watch --open",
+    "web-modules": "snowpack"
   },
   "devDependencies": {
     "es-dev-server": "^1.56.0",
