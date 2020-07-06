@@ -1,0 +1,16 @@
+{
+  "name": "import-maps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "server":"es-dev-server --app-index index.html --watch --open"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.56.0",
+    "snowpack": "^2.6.3"
+  },
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  }
+}
