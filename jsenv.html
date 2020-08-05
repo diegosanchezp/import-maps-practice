@@ -1,0 +1,36 @@
+
+<html>
+  <head>
+    <title>ES Import Maps Shimp</title>
+
+    <script defer src="./es-module-shims.min.js"></script>
+
+    <script type="importmap-shim" src="import-map.importmap">
+    </script>
+
+    <script type="module-shim">
+      import { LitElement, html, css } from 'lit-element';
+
+      class XComponent extends LitElement {
+        static get styles() {
+          return css`
+            :host {
+              color: red;
+            }
+          `;
+        }
+
+        render() {
+          return html`
+            Hello from lit-element!
+          `;
+        }
+      }
+
+      customElements.define('x-component', XComponent);
+    </script>
+  </head>
+  <body>
+    <x-component></x-component>
+  </body>
+</html>

@@ -807,6 +807,55 @@
     prompts "^2.1.0"
     semver "^6.1.0"
 
+"@jsenv/cancellation@1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@jsenv/cancellation/-/cancellation-1.4.1.tgz#de1dc8f1560918fcf68f386b773016bf710bbc58"
+  integrity sha512-PSCHdPLUHcfbRQuoGCnjEenj0on0ii+7WSqzc+35+BW1NpGHdkjMqwnAYTa2UDsjmkhgjxuHOUlMQxCVG3qP7A==
+
+"@jsenv/cancellation@1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@jsenv/cancellation/-/cancellation-1.4.2.tgz#56cca73faf1c7d68cd4331e4863c6f5027ffacef"
+  integrity sha512-B1TASxqwseLQkjQIy2BZjPy/NiJjaBXtqz6MSdKDgv5yqLd9efNC91AXOJxscxL+m+13t4U7Gz+XDsltE8TcjQ==
+
+"@jsenv/import-map@6.7.4":
+  version "6.7.4"
+  resolved "https://registry.yarnpkg.com/@jsenv/import-map/-/import-map-6.7.4.tgz#119d9050ce0eefeca30ed542a93fef779b438ad6"
+  integrity sha512-nLFrTEtqFd2AWRX2+0I3BFhwHrnc42AHayNTmjJwSxW2j9mnQAVQrT10oarQapPybygtIPy3YhedSjNb1/+4xQ==
+
+"@jsenv/logger@3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@jsenv/logger/-/logger-3.3.1.tgz#dddd12605f81500a3113d66c9a7aea78e95a15da"
+  integrity sha512-Xi3Qtxu/ASi1sgAh+f5Emp6brcMjM1fG+Du7QMPcCKfvYJs/paud6oJLPhjgoPEYgl3XIfiCxZyoX+GCT4Jydg==
+
+"@jsenv/node-module-import-map@^12.0.1":
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/@jsenv/node-module-import-map/-/node-module-import-map-12.0.1.tgz#e060572a4672d628d4c369fd3c0258099ee9fe2a"
+  integrity sha512-aG7nOt5eBnmDwcMFlq6GtNdAqzS4KtdEDdEyAe1Lzsw11zsKvmI3cJ3k2OzDwy1zA5xN0Eu/FSeCriz0TpekLA==
+  dependencies:
+    "@jsenv/cancellation" "1.4.2"
+    "@jsenv/import-map" "6.7.4"
+    "@jsenv/logger" "3.3.1"
+    "@jsenv/util" "3.6.3"
+
+"@jsenv/node-signals@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@jsenv/node-signals/-/node-signals-2.0.1.tgz#2ef15a1160cc0f2802edc4d6ce2c62c196452abd"
+  integrity sha512-OXZkSZsegiOI+uueyY1wwx6Z0XpPFf/d/es/Bi1fUBeR/k8PvFyRygM9FgtYpZmJ0FGaEKTYQN+E31dzTru4kw==
+
+"@jsenv/url-meta@5.2.3":
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@jsenv/url-meta/-/url-meta-5.2.3.tgz#fed4ef018445002d8bf147c0edc2a5d03de20288"
+  integrity sha512-OT+4G7zUHfrRPnWLyE8xtOZ4XxWfZcDJXohg4EgxO7B1qyp1eK+4aehF8WAdHkbe2U2zpzyzGDhD2V2ainZBRw==
+
+"@jsenv/util@3.6.3":
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/@jsenv/util/-/util-3.6.3.tgz#ffc18c0d744b3547cf1839a5f847d1635ffae4b3"
+  integrity sha512-ijpUnkBwfUoTVVfhO5oHyBK2fIFhwp/48ejUcEYogM8owmwbFLv3+u9w7CWjoeA8tAzbMNPE4femj+TzmrS/4w==
+  dependencies:
+    "@jsenv/cancellation" "1.4.1"
+    "@jsenv/node-signals" "2.0.1"
+    "@jsenv/url-meta" "5.2.3"
+
 "@koa/cors@^3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@koa/cors/-/cors-3.1.0.tgz#618bb073438cfdbd3ebd0e648a76e33b84f3a3b2"

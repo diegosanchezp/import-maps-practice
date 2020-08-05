@@ -5,10 +5,13 @@
   "license": "MIT",
   "scripts": {
     "server": "es-dev-server --app-index index.html --watch --open",
-    "generate-import": "npx @import-map/generate"
+    "generate-import": "npx @import-map/generate",
+    "server-jsenv": "es-dev-server --app-index jsenv.html --watch --open",
+    "generate-jsenv-map": "node generate-import-map.mjs"
   },
   "devDependencies": {
     "@import-maps/generate": "^0.2.6",
+    "@jsenv/node-module-import-map": "^12.0.1",
     "es-dev-server": "^1.56.0",
     "snowpack": "^2.6.3"
   },
